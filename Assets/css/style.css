@@ -1,0 +1,29 @@
+.logo-image img {
+    width: 150px;
+    margin:20px;
+}
+
+.main-header {
+    display: flex;
+    width: 100%;
+}
+
+.main-header nav {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.main-header .menu-list {
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+.main-header .menu-list li {
+    margin-right: 25px;
+}
