@@ -21,9 +21,18 @@
     list-style-type: none;
     display: flex;
     
-    
 }
 
-.main-header .menu-list li {
+.main-header .menu-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-header .menu-list a:hover {
+    color: #eb3118;
+}
+
+.main-header .menu-list a li {
     margin-right: 25px;
+    text-decoration: none;
 }
