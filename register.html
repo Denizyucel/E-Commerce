@@ -43,10 +43,36 @@
             <form>
                 <section class="form-card">
                     <div class="login-form">
-                        <label for="mail">E-mail Adress</label>
-                        <input type="mail" id="mail" placeholder="john@doe.com"><br>
-                        <div class="login-password-input"><label for="password">Password</label><h6>Forget Password</h6></div>
-                        <input type="password" id="password" placeholder="Enter Password"><br>
+                        <div class="name-input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter name">
+                        </div>
+
+                        <div class="surname-input">
+                            <label for="surname">Surname</label>
+                            <input type="text" id="surname" placeholder="Enter surname">
+                        </div>
+
+                        <div class="mail-input">
+                            <label for="mail">E-mail Adress</label>
+                            <input type="mail" id="mail" placeholder="john@doe.com"><br> 
+                        </div>
+
+                        <div class="password-input">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter Password"><br>
+                        </div>
+
+                        <div class="password-input">
+                            <label for="password2">Re-Password</label>
+                            <input type="password" id="password2" placeholder="Re-Enter Password"><br>
+                        </div>
+                        
+                        <div class="checkbox-agree">
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox">I agree to the privacy policy</label>
+                        </div>
+
                         <button class="first-button">Register</button>
                         <h5 class="login-else-divider">OR</h5>
                         <button formaction="login.html" class="second-button">Login</button>

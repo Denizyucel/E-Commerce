@@ -156,12 +156,12 @@
     width: 100%;
 }
 
-/* LOGIN PAGE */
+/* LOGIN & REGISTER PAGE */
 
 .form-card {
     margin-left:auto;
     margin-right:auto;
-    width: 340px;
+    width: 450px;
 }  
 
 .form-card .login-form {
@@ -172,25 +172,49 @@
 }
 
 
-.form-card .login-form input {
+.form-card .login-form .name-input input {
+    border: 1px solid #232323;
+    color: #232323;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-card .login-form .surname-input input {
+    border: 1px solid #232323;
+    color: #232323;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+.form-card .login-form .mail-input input {
+    border: 1px solid #232323;
+    color: #232323;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-card .login-form .password-input input {
     border: 1px solid #232323;
     color: #232323;
     margin-bottom: 35px;
     width: 100%;
     padding: 5px;
     border-radius: 3px;
+
 }
  
-
-.form-card .login-form .login-password-input {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}  
-
-.form-card .login-form .login-password-input h6 {
+.form-card .login-form .password-input .password-title {
     display: flex;
     color: #232323;
+    justify-content: space-between;
+    align-items: center;
 }  
 
 .form-card .login-form .first-button {
@@ -198,8 +222,18 @@
     margin-bottom: 20px;
     color: #ffffff;
     background-color: #232323;
-    padding: 5px;
+    padding: 10px;
     border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #232323;
+}
+
+.form-card .login-form .first-button:hover {
+    background-color: #eb3118;
+    border: 1px solid #eb3118;
 }
 
 .form-card .login-form .login-else-divider {
@@ -225,12 +259,37 @@
 }
 
 .form-card .login-form .second-button {
+ 
     width: 100%;
     margin-bottom: 20px;
     color: #232323;
     background-color: #ffffff;
-    padding: 5px;
+    padding: 10px;
     border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #232323;
     text-decoration: none;
 }
 
+
+.form-card .login-form .second-button:hover {
+
+    background-color: #232323;
+    color: #ffffff;
+
+
+}
+
+.form-card .login-form .checkbox-agree {
+    display: flex;
+    justify-content: left;
+    margin-bottom:20px;
+}
+
+.form-card .login-form .checkbox-agree label {
+    margin-bottom: 0px;
+    margin-left:10px;
+}
