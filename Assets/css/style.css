@@ -156,6 +156,81 @@
     width: 100%;
 }
 
+/* LOGIN PAGE */
+
+.form-card {
+    margin-left:auto;
+    margin-right:auto;
+    width: 340px;
+}  
+
+.form-card .login-form {
+    border: 1px solid #232323;
+    padding: 50px;
+    box-shadow: #23232341 0px 8px 24px;
+    border-radius: 4px;
+}
 
 
+.form-card .login-form input {
+    border: 1px solid #232323;
+    color: #232323;
+    margin-bottom: 35px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+ 
+
+.form-card .login-form .login-password-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.form-card .login-form .login-password-input h6 {
+    display: flex;
+    color: #232323;
+}  
+
+.form-card .login-form .first-button {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #232323;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-card .login-form .login-else-divider {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a9a9a9;;
+}
+
+.form-card .login-form .login-else-divider:before,
+.form-card .login-form .login-else-divider:after {
+    content: '';
+    border-top: 2px solid #a9a9a9;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.form-card .login-form .login-else-divider:after {
+    margin: 0 0 0 20px;
+}
+
+.form-card .login-form .second-button {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #232323;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
 

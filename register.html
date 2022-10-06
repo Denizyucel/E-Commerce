@@ -15,21 +15,44 @@
 
       </head>
     <body>
-        <main>
+        <main style="max-width:1440px; margin-left:auto; margin-right:auto;">
             <header class="main-header">
                 <figure class="logo-image">
                     <img src="Assets/images/ecommerce-logo.svg" />
                 </figure>
                 <nav>
                     <ul class="menu-list">
-                        <a href="main.html"><li>Main</li></a> 
-                        <a href="login.html"><li>Login</li></a>
-                        <a href="register.html"><li>Register</li></a>
-                        <a href="checkout.html"><li>Checkout</li></a>
-                        <a href="success-payment"><li>Success Payment</li></a>
+                        <a href="main.html">
+                            <li>Main</li>
+                        </a>
+                        <a href="login.html">
+                            <li>Login</li>
+                        </a>
+                        <a href="register.html">
+                            <li>Register</li>
+                        </a>
+                        <a href="checkout.html">
+                            <li>Checkout</li>
+                        </a>
+                        <a href="success-payment">
+                            <li>Success Payment</li>
+                        </a>
                     </ul>
                 </nav>
             </header>
+            <form>
+                <section class="form-card">
+                    <div class="login-form">
+                        <label for="mail">E-mail Adress</label>
+                        <input type="mail" id="mail" placeholder="john@doe.com"><br>
+                        <div class="login-password-input"><label for="password">Password</label><h6>Forget Password</h6></div>
+                        <input type="password" id="password" placeholder="Enter Password"><br>
+                        <button class="first-button">Register</button>
+                        <h5 class="login-else-divider">OR</h5>
+                        <button formaction="login.html" class="second-button">Login</button>
+                    </div>
+                </section>
+            </form>
         </main>
     </body>
 </html>
