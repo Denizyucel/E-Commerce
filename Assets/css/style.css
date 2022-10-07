@@ -1,4 +1,8 @@
-
+main {
+    max-width:1440px;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 .logo-image img {
     width: 150px;
@@ -164,7 +168,7 @@
     width: 450px;
 }  
 
-.form-card .login-form {
+.form-card .form-info {
     border: 1px solid #232323;
     padding: 50px;
     box-shadow: #23232341 0px 8px 24px;
@@ -172,16 +176,7 @@
 }
 
 
-.form-card .login-form .name-input input {
-    border: 1px solid #232323;
-    color: #232323;
-    margin-bottom: 25px;
-    width: 100%;
-    padding: 5px;
-    border-radius: 3px;
-}
-
-.form-card .login-form .surname-input input {
+.form-card .form-info .text-input input {
     border: 1px solid #232323;
     color: #232323;
     margin-bottom: 25px;
@@ -191,7 +186,7 @@
 }
 
 
-.form-card .login-form .mail-input input {
+.form-card .form-info .mail-input input {
     border: 1px solid #232323;
     color: #232323;
     margin-bottom: 25px;
@@ -200,7 +195,7 @@
     border-radius: 3px;
 }
 
-.form-card .login-form .password-input input {
+.form-card .form-info .password-input input {
     border: 1px solid #232323;
     color: #232323;
     margin-bottom: 35px;
@@ -210,14 +205,23 @@
 
 }
  
-.form-card .login-form .password-input .password-title {
+.form-card .form-info .password-input .password-title {
     display: flex;
     color: #232323;
     justify-content: space-between;
     align-items: center;
 }  
 
-.form-card .login-form .first-button {
+.form-card .form-info .textarea-input textarea {
+    border: 1px solid #232323;
+    color: #232323;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-card .form-info .first-button {
     width: 100%;
     margin-bottom: 20px;
     color: #ffffff;
@@ -231,12 +235,12 @@
     border: 1px solid #232323;
 }
 
-.form-card .login-form .first-button:hover {
+.form-card .form-info .first-button:hover {
     background-color: #eb3118;
     border: 1px solid #eb3118;
 }
 
-.form-card .login-form .login-else-divider {
+.form-card .form-info .login-else-divider {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -246,19 +250,19 @@
     color: #a9a9a9;;
 }
 
-.form-card .login-form .login-else-divider:before,
-.form-card .login-form .login-else-divider:after {
+.form-card .form-info .login-else-divider:before,
+.form-card .form-info .login-else-divider:after {
     content: '';
     border-top: 2px solid #a9a9a9;
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
 
-.form-card .login-form .login-else-divider:after {
+.form-card .form-info .login-else-divider:after {
     margin: 0 0 0 20px;
 }
 
-.form-card .login-form .second-button {
+.form-card .form-info .second-button {
  
     width: 100%;
     margin-bottom: 20px;
@@ -275,21 +279,48 @@
 }
 
 
-.form-card .login-form .second-button:hover {
+.form-card .form-info .second-button:hover {
 
-    background-color: #232323;
+    background-color: #eb3118;
+    border: 2px solid #eb3118;
     color: #ffffff;
 
 
 }
 
-.form-card .login-form .checkbox-agree {
+.form-card .form-info .checkbox-agree {
     display: flex;
     justify-content: left;
     margin-bottom:20px;
 }
 
-.form-card .login-form .checkbox-agree label {
+.form-card .form-info .checkbox-agree input {
+
+    background-color: #eb3118;
+}
+
+.form-card .form-info .checkbox-agree label {
     margin-bottom: 0px;
     margin-left:10px;
+}
+
+.form-card .form-info .form-select select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    color: 232323;
+    margin-bottom: 20px;
+}
+
+.form-card .form-info .button-two-col {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+/*CHECKOUT IMAGE*/
+
+.checkout-form .checkout-image {
+    
 }

@@ -43,39 +43,22 @@
             <form>
                 <section class="form-card">
                     <div class="form-info">
-                        <div class="text-input">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" required placeholder="Enter name">
-                        </div>
 
+                        <div class="text-input">
+                            <label for="name">Card Name</label>
+                            <input type="text" id="name" placeholder="Enter Card Name">
+                        </div>
                         <div class="text-input">
                             <label for="surname">Surname</label>
-                            <input type="text" id="surname" required placeholder="Enter surname">
+                            <input type="text" id="surname" placeholder="Enter Surname">
                         </div>
 
-                        <div class="mail-input">
-                            <label for="mail">E-mail Adress</label>
-                            <input type="mail" id="mail" required placeholder="john@doe.com"><br> 
+
+                        <div class="button-two-col">
+                            <button formaction="checkout.html" class="second-button">Back</button>
+                            <button formaction="payment.html" class="first-button">Payment</button>
                         </div>
 
-                        <div class="password-input">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" required placeholder="Enter Password"><br>
-                        </div>
-
-                        <div class="password-input">
-                            <label for="password2">Re-Password</label>
-                            <input type="password" id="password2" required placeholder="Re-Enter Password"><br>
-                        </div>
-                        
-                        <div class="checkbox-agree">
-                            <input type="checkbox" id="checkbox" required>
-                            <label for="checkbox">I agree to the privacy policy</label>
-                        </div>
-
-                        <button class="first-button">Register</button>
-                        <h5 class="login-else-divider">OR</h5>
-                        <button formaction="login.html" class="second-button">Login</button>
                     </div>
                 </section>
             </form>
