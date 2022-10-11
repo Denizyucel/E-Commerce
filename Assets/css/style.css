@@ -1,3 +1,23 @@
+/*.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row > .col {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+*/
 main {
     max-width:1440px;
     margin-left:auto;
@@ -148,7 +168,7 @@ main {
     color: #ffffff;
     background-color: #232323;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
     text-transform: uppercase;
@@ -192,7 +212,7 @@ main {
     margin-bottom: 25px;
     width: 100%;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 
@@ -202,7 +222,7 @@ main {
     margin-bottom: 25px;
     width: 100%;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .form-card .form-info .password-input input {
@@ -211,7 +231,7 @@ main {
     margin-bottom: 35px;
     width: 100%;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 4px;
 
 }
  
@@ -228,7 +248,7 @@ main {
     margin-bottom: 25px;
     width: 100%;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .form-card .form-info .first-button {
@@ -237,7 +257,7 @@ main {
     color: #ffffff;
     background-color: #232323;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
     text-transform: uppercase;
@@ -279,7 +299,7 @@ main {
     color: #232323;
     background-color: #ffffff;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
     text-transform: uppercase;
@@ -317,7 +337,7 @@ main {
 .form-card .form-info .form-select select {
     width: 100%;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     color: 232323;
     margin-bottom: 20px;
 }
@@ -329,8 +349,76 @@ main {
 }
 
 
-/*CHECKOUT IMAGE*/
+/*CHECKOUT*/
 
-.checkout-form .checkout-image {
+.checkout-main {
+    display: flex;
+}
+
+.checkout-main .checkout-form {
+    width: 300px;
+}
+
+.checkout-main .checkout-form .checkout-image img {
+    display: block;
+    width:100%;
+    object-fit: cover;
+}
+
+
+/*FOOTER*/
+.footer-section .footer-main {
+    display: flex;
+    padding: 50px;
+}
+
+
+.footer-section .footer-main .footer-info {
+    text-align: right;
+}
+
+.footer-section .footer-main .footer-info .email-block .email {
+    padding: 15px;
+    background-color: #232323;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.footer-section .footer-main .footer-info .email-block .email .ri-mail-line {
+    margin: 0 8px;
+    color: #ffffff;
+
+}
+
+.footer-section .footer-main .footer-info .email-block .email a {
+    text-decoration: none;
+    color: #ffffff;
     
+}
+
+.footer-section .footer-main .footer-info .email-block .email:hover {
+    background-color: #ffffff;
+    border: 1px solid #232323;
+}
+
+.footer-section .footer-main .footer-info .email-block .email:hover a {
+    color: #232323;
+}
+
+.footer-section .footer-main .footer-info .email-block .email:hover .ri-mail-line {
+    color: #232323;
+}
+
+.footer-section .footer-main .footer-links {
+    margin-right: auto;
+    
+}
+
+.footer-section .footer-main .footer-links a {
+    text-decoration: none;
+    color: #232323;
+    margin: 0 20px;
+    display: block;
 }
