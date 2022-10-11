@@ -193,8 +193,7 @@ main {
 /* LOGIN & REGISTER PAGE */
 
 .form-card {
-    margin-left:auto;
-    margin-right:auto;
+    margin: 100px auto;
     width: 450px;
 }  
 
