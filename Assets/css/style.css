@@ -18,6 +18,74 @@
 }
 
 */
+
+/* FOOTER */
+
+.footer-section .footer-main {
+    display: flex;
+    padding: 50px;
+}
+
+
+.footer-section .footer-main .footer-info {
+    text-align: right;
+}
+
+.footer-section .footer-main .footer-info .email-block .email {
+    padding: 15px;
+    background-color: #232323;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.footer-section .footer-main .footer-info .email-block .email .ri-mail-line {
+    margin: 0 8px;
+    color: #ffffff;
+
+}
+
+.footer-section .footer-main .footer-info .email-block .email a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.footer-section .footer-main .footer-info .email-block .email:hover {
+    background-color: #ffffff;
+    border: 1px solid #232323;
+}
+
+.footer-section .footer-main .footer-info .email-block .email:hover a {
+    color: #232323;
+}
+
+.footer-section .footer-main .footer-info .email-block .email:hover .ri-mail-line {
+    color: #232323;
+}
+
+.footer-section .footer-main .footer-links {
+    margin-right: auto;
+    
+}
+
+.footer-section .footer-main .footer-links a {
+    text-decoration: none;
+    color: #232323;
+    margin: 0 20px;
+    display: block;
+}
+
+.footer-section .footer-main .footer-links a {
+    text-decoration: none;
+    color: #232323;
+    margin: 0 20px;
+    display: block;
+}
+
+/* MAIN */
+
 main {
     max-width:1440px;
     margin-left:auto;
@@ -124,6 +192,18 @@ main {
 
 }
 
+.main-section .product-list .product-card button {
+
+    visibility: hidden;
+
+}
+
+.main-section .product-list .product-card:hover button {
+
+    visibility: visible;
+
+}
+
 .main-section .product-list .product-card .card-image figure img {
 
     display:block;
@@ -132,6 +212,14 @@ main {
     height: 300px;
 
 } 
+
+.main-section .product-list .product-card .card-image figure {
+    transform: scale(1);
+}
+
+.main-section .product-list .product-card:hover .card-image figure {
+    transform: scale(1.1);
+}
 
 .main-section .product-list .product-card .card-info {
     text-align: center;
@@ -348,14 +436,14 @@ main {
 }
 
 
-/*CHECKOUT*/
+/* CHECKOUT */
 
 .checkout-main {
     display: flex;
 }
 
 .checkout-main .checkout-form {
-    width: 300px;
+    width: 150px;
 }
 
 .checkout-main .checkout-form .checkout-image img {
@@ -364,60 +452,8 @@ main {
     object-fit: cover;
 }
 
-
-/*FOOTER*/
-.footer-section .footer-main {
-    display: flex;
-    padding: 50px;
+.checkout-main .checkout-form .checkout-description {
+    margin: auto 0;
 }
 
 
-.footer-section .footer-main .footer-info {
-    text-align: right;
-}
-
-.footer-section .footer-main .footer-info .email-block .email {
-    padding: 15px;
-    background-color: #232323;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    margin: 25px 0px;
-}
-
-.footer-section .footer-main .footer-info .email-block .email .ri-mail-line {
-    margin: 0 8px;
-    color: #ffffff;
-
-}
-
-.footer-section .footer-main .footer-info .email-block .email a {
-    text-decoration: none;
-    color: #ffffff;
-    
-}
-
-.footer-section .footer-main .footer-info .email-block .email:hover {
-    background-color: #ffffff;
-    border: 1px solid #232323;
-}
-
-.footer-section .footer-main .footer-info .email-block .email:hover a {
-    color: #232323;
-}
-
-.footer-section .footer-main .footer-info .email-block .email:hover .ri-mail-line {
-    color: #232323;
-}
-
-.footer-section .footer-main .footer-links {
-    margin-right: auto;
-    
-}
-
-.footer-section .footer-main .footer-links a {
-    text-decoration: none;
-    color: #232323;
-    margin: 0 20px;
-    display: block;
-}
